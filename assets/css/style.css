@@ -23,7 +23,7 @@ h3 {
 }
 
 h4 {
-    font-size: 12px;
+    font-size: 18px;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -44,6 +44,11 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 15px;
     margin-bottom: 3px;
+}
+
+img {
+    width: 40%;
+    height: auto;
 }
 
 .TopHeader {
@@ -84,7 +89,6 @@ li {
     padding: 5px 10px;
     color: #777777;
     border: 1px solid #dddddd;
-
 }
 
 #aboutme {
@@ -101,6 +105,14 @@ li {
     margin-bottom: 10px;
 }
 
+#portfolioid {
+    color: #4aaaa5;
+    border-bottom: 1px solid #4aaaa5;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+}
 #JessePic1 {
     width: 10%;
     height: 10%;
@@ -120,6 +132,7 @@ li {
     padding:10px;
     margin-bottom: 0;
     font-size: 8px;
+    z-index: 3;
 }
 
 .ContactMeDiv {
@@ -142,20 +155,82 @@ li {
     width: 50%;
     border-color: #666666;
     border-width: 1px;
-}
+} 
 
 a:link {
     text-decoration: none;
+    color:  #777777;
+}
+
+li h3 a:hover {
+    color: #4aaaa5;
 }
 
 a:visited {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
+    color: #777777;
 }
 
 a:active {
     text-decoration: underline;
+    color: #777777;
+}
+
+.submit {
+    padding: 10px 30px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: 2px solid #666666;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.portfoliosection {
+    width: 938px;   
+    align-items: center;
+    background-color: #ffffff;
+    margin: 30px auto;
+    padding: 5px 10px;
+    color: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+.hangdiv {
+    position: relative;
+    margin: 15px;
+}
+.rpgdiv {
+    position: relative;
+    margin: 15px;
+}
+.triviadiv {
+    position: relative;
+    margin: 15px;
+}
+.rutgersdiv {
+    position: relative;
+    margin: 15px;
+}
+.rpsdiv {
+    position: relative;
+    margin: 15px;
+}
+
+.projecttitle {
+    position: absolute;
+    width: 40%;
+    height: auto;
+    text-align: center;
+    padding: 40px 0px;
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    z-index: 1;
+    left: 0;
+    top: 45%;
+    font-weight: bold;
+}   
+
+.GalleryClass {
+    margin: 20px 0;
 }
