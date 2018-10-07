@@ -46,11 +46,6 @@ p {
     margin-bottom: 3px;
 }
 
-img {
-    width: 40%;
-    height: auto;
-}
-
 .TopHeader {
     background-color: #ffffff;
     width: 100%;
@@ -112,7 +107,6 @@ li {
     margin-bottom: 10px;
 }
 
-}
 #JessePic1 {
     width: 10%;
     height: 10%;
@@ -187,38 +181,58 @@ a:active {
 
 .portfoliosection {
     width: 938px;   
-    align-items: center;
+    /* align-items: center; */
     background-color: #ffffff;
     margin: 30px auto;
     padding: 5px 10px;
     color: #ffffff;
     border: 1px solid #dddddd;
+    overflow: auto;
 }
 
 .hangdiv {
     position: relative;
-    margin: 15px;
+    display: inline-block;
+    float: left;
+    width: 425px;
+    margin: 10px;
 }
+
 .rpgdiv {
     position: relative;
-    margin: 15px;
+    display: inline-block;
+    float: left;
+    width: 425px;
+    margin: 10px;
 }
+
 .triviadiv {
     position: relative;
-    margin: 15px;
+    display: inline-block;
+    float: left;
+    width: 425px;
+    margin: 10px;
 }
+    
 .rutgersdiv {
     position: relative;
-    margin: 15px;
+    display: inline-block;
+    float: left;
+    width: 425px;
+    margin: 10px;
 }
+
 .rpsdiv {
     position: relative;
-    margin: 15px;
+    display: inline-block;
+    float: left;
+    width: 425px;
+    margin: 10px;
 }
 
 .projecttitle {
     position: absolute;
-    width: 40%;
+    width: 100%;
     height: auto;
     text-align: center;
     padding: 40px 0px;
@@ -229,8 +243,13 @@ a:active {
     left: 0;
     top: 45%;
     font-weight: bold;
-}   
+}
 
 .GalleryClass {
-    margin: 20px 0;
+    margin: 30px 0px;
+    display: inline-block;
+}
+
+.picsize {
+    width: 100%;
 }
